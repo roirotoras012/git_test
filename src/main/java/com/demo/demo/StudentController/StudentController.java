@@ -29,7 +29,6 @@ public class StudentController {
     @GetMapping("/all")
     public List<StudentModel> list() {
         return studentService.listAll();
-
     }
 
     @CrossOrigin(origins = "http://localhost:8000")
